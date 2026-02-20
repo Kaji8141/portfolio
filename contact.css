@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(255, 0, 0);
+
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+
+.headband{
+    background-color: black;
+    position: sticky;
+    top: 0;
+
+    height: 5vh;
+    width: 100vw;
+    padding: 1vh;
+}
+
+.back_menu{
+    display: flex;
+    align-items: center;
+
+    color: white;
+    text-decoration: none;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: 88vh;
+    width: 100vw;
+}
+
+.contact_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.contact_text{
+    font-size: 5vh;
+}
+
+.contact_text2{
+    margin-top: 3vh;
+    font-size: 2vh;
+}
+
+.dog{
+    display: none; 
+}
+
+.info{
+    display: flex;
+    justify-content: end;
+    font-size: 15px;
+    margin-right: 5vh;
+}
+
+.allbtn{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.a{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 2vh;
+    margin-right: 5vh;
+    color: black;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: blue;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 999px;
+}
+
+.end_blue{
+    background-color: blue;
+    display: flex;
+    justify-content: end;
+    align-items:end;
+    
+    bottom: 0;
+    height: 5vh;
+}
+
+@media screen and (min-width:768px) {
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+
+
+}
