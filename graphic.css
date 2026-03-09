@@ -95,12 +95,17 @@ body{
     align-self: center;
     width: 80%;
     
-    
 }
 
 .divrow{
     display: flex;
     flex-direction: row;
+    align-self: center;
+    gap: 3vw;
+}
+
+.img2{
+    display: flex;
 }
 
 .bleu2{
