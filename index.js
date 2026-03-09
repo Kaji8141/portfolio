@@ -1,8 +1,14 @@
+console.log("dom loaded");
+
 const onDomLoaded = () => {
-  console.log("dom loaded");
 
   let tl = gsap.timeline();
-  tl.to(".light", {duration: 1, x: 774})
+  tl.to(".light", {
+  x:800,
+  repeat:-1,
+  yoyo: true,
+  ease:"steps(12)",
+  duration:5,})
 }
 
 

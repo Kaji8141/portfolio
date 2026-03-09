@@ -52,6 +52,8 @@ body{
 }
 
 .light{
+    display: flex;
+    justify-content: flex-start;
     font-size: 3vh;
     font-family: gadugi;
     padding-top: 7vh;
@@ -70,7 +72,7 @@ body{
 .titre__1{
     display: flex;
     padding-right: 16vh;
-    font-family: gadugi;
+    font-family: gadugi-bold;
 }
 
 .titre__2{
