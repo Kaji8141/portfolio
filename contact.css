@@ -12,27 +12,38 @@ body{
 
 .headband{
     background-color: black;
+    display: flex;
+    flex-direction: row;
+    
     position: sticky;
-    top: 0;
 
+    align-items: center;
+    
+    top: 0;
     height: 5vh;
     width: 100vw;
-    padding: 1vh;
 }
 
 .back_menu{
-    display: flex;
-    align-items: center;
-
+    position: relative;
     color: white;
+    font-family: gadugi;
     text-decoration: none;
+    font-size: 2vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
 }
 
 .contact{
     display: flex;
     flex-direction: column;
-    height: 88vh;
+    height: 90vh;
     width: 100vw;
+}
+
+.contact2{
+    display: flex;
+    flex-direction: column;
 }
 
 .contact_title{
@@ -43,27 +54,40 @@ body{
 }
 
 .contact_text{
-    font-size: 5vh;
+    font-size: 15vh;
+    font-family: gadugi;
 }
 
 .contact_text2{
-    margin-top: 3vh;
-    font-size: 2vh;
+    -webkit-text-stroke-width: 0.2vh;
+    -webkit-text-fill-color: transparent;
+    margin-top: 11vh;
+    font-size: 5vh;
+    font-family: gadugi;
 }
 
-.dog{
-    display: none; 
+.contact_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.gif{
+    padding-left: 10vh;
+    width: 40%;
 }
 
 .info{
     display: flex;
     justify-content: end;
-    font-size: 15px;
+    font-size: 3vh;
     margin-right: 5vh;
+    margin-bottom: 10vh;
+    font-family: gadugi;
 }
 
 .allbtn{
     display: flex;
+    flex-direction: row;
     justify-content: end;
     align-items: end;
 }
@@ -73,16 +97,25 @@ body{
     justify-content: end;
     margin-bottom: 2vh;
     margin-right: 5vh;
-    color: black;
     text-decoration: none;
 }
 
 .btn{
-    background-color: blue;
+    background-color: black;
+    color: white;
     border: solid;
-    border-width: 2px;
-    border-color: black;
+    width: 10vw;
+    border-width: 0.5vh;
+    border-color: blue;
     border-radius: 999px;
+    font-family: gadugi;
+    font-size: 3vh;
+}
+
+.btn:hover{
+    background-color: blue;
+    border-color:black;
+    color: black;
 }
 
 .end_blue{
@@ -90,8 +123,7 @@ body{
     display: flex;
     justify-content: end;
     align-items:end;
-    
-    bottom: 0;
+
     height: 5vh;
 }
 
