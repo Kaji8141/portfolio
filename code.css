@@ -6,7 +6,6 @@ body{
     flex-direction: column;
     margin: 0;
     overflow-x: hidden;
-    overflow-y: hidden;
     
 }
 
@@ -18,6 +17,8 @@ body{
     position: sticky;
 
     align-items: center;
+    justify-content: center;
+    z-index: 9999;
     
     top: 0;
     height: 5vh;
@@ -56,9 +57,9 @@ body{
     display: flex;
     flex-direction: row;
     
-    justify-content: space-between;
+    justify-content: center;
 
-    height: 90vh;
+    min-height: 810px;
     width: 100vw;
 }
 
@@ -66,7 +67,6 @@ body{
     position: relative;
     background-color: blue;
     width: 3vw;
-    height: 90vh;
 }
 
 .middle{
@@ -80,6 +80,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 0;
+    margin-bottom: 0;
     font-size: 10vh;
     font-family: gadugi;
 }
@@ -92,11 +93,44 @@ body{
     font-family: gadugi;
 }
 
+
+.img{
+    display: flex;
+    align-self: center;
+    width: 50%;
+    
+}
+
+.a{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 2vh;
+    margin-right: 5vh;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border: solid;
+    width: 10vw;
+    border-width: 0.5vh;
+    border-color: white;
+    border-radius: 999px;
+    font-family: gadugi;
+    font-size: 3vh;
+}
+
+.btn:hover{
+    background-color: blue;
+    border-color:black;
+    color: black;
+}
+
 .bleu2{
     position: relative;
     background-color: blue;
     width: 3vw;
-    height: 90vh;
 }
 
 .end_blue{
@@ -105,7 +139,27 @@ body{
     justify-content: end;
     align-items:end;
 
-    height: 5vh;
+    height: 10vh;
+}
+
+.a{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 2vh;
+    margin-right: 5vh;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border: solid;
+    width: 10vw;
+    border-width: 0.5vh;
+    border-color: white;
+    border-radius: 999px;
+    font-family: gadugi;
+    font-size: 3vh;
 }
 
 @media screen and (min-width:768px) {

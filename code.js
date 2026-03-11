@@ -1,5 +1,18 @@
-const onDomLoaded = () => {
-  console.log("dom loaded");
+let next = document.querySelector(".back_menu2");
+let headband = document.querySelector(".headband");
 
-  gsap.to(".bleu", {rotation: 360, x: 100, duration: 1});
+for (let i = 0; i < 29; i++) {
+ headband.appendChild(next.cloneNode(true));
+}
+
+const onDomLoaded = () => {
+
+  let tl = gsap.timeline();
+  tl.to(".bleu", {
+  y:800,
+  repeat:-1,
+  yoyo: true,
+  ease:"steps(12)",
+  duration:5,});
+
 }
