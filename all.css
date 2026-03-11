@@ -6,7 +6,6 @@ body{
     flex-direction: column;
     margin: 0;
     overflow-x: hidden;
-    
 }
 
 .headband{
@@ -18,11 +17,21 @@ body{
 
     align-items: center;
     justify-content: center;
+
+    z-index: 999;
     
-    z-index: 9999;
     top: 0;
     height: 5vh;
     width: 100vw;
+}
+
+.hello{
+    position: relative;
+    color: white;
+    font-family: gadugi;
+    font-size: 2vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
 }
 
 .back_menu{
@@ -53,12 +62,93 @@ body{
     padding-right: 1vh;
 }
 
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 100vh;
+    width: 100vw;
+}
+
+.lights{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.light{
+    font-size: 3vh;
+    font-family: gadugi;
+    padding-top: 7vh;
+    padding-bottom: 5vh;
+    
+}
+
+.titre{
+    font-size: 20vh;
+    color: #0600ff;
+    margin: 0;
+    line-height: 0.69;
+    
+}
+
+.titre__1{
+    display: flex;
+    padding-right: 16vh;
+    font-family: gadugi;
+}
+
+.titre__2{
+    display: flex;
+    padding-left: 16.3vh;
+    font-family: gadugi;
+}
+
+.menu{
+    background-color: #0000ff;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100vh;
+    width: 100vw; 
+
+}
+
+.menu_list{
+    color: black;
+    text-decoration: none;
+    margin-right: 5vh;
+    font-size: 10vh;
+    margin-bottom: 5vh;
+    font-family: gadugi;
+}
+
+.menu_list:hover{
+    -webkit-text-stroke-width: 0.3vh;
+    -webkit-text-fill-color: transparent;
+}
+
 .graphic{
     display: flex;
     flex-direction: row;
     
     justify-content: center;
     width: 100vw;
+}
+
+.code {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+
+  min-height: 810px;
+  width: 100vw;
 }
 
 .bleu{
@@ -131,6 +221,64 @@ body{
     height: 10vh;
 }
 
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 100vw;
+}
+
+.contact2{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.contact_text{
+    font-size: 15vh;
+    font-family: gadugi;
+}
+
+.contact_text2{
+    -webkit-text-stroke-width: 0.2vh;
+    -webkit-text-fill-color: transparent;
+    margin-top: 11vh;
+    font-size: 5vh;
+    font-family: gadugi;
+}
+
+.contact_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.gif{
+    padding-left: 10vh;
+    width: 40%;
+}
+
+.contact_info{
+    display: flex;
+    justify-content: end;
+    font-size: 3vh;
+    margin-right: 5vh;
+    margin-bottom: 10vh;
+    font-family: gadugi;
+}
+
+.allbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+
 .a{
     display: flex;
     justify-content: end;
@@ -156,6 +304,7 @@ body{
     border-color:black;
     color: black;
 }
+
 
 @media screen and (min-width:768px) {
     body{
