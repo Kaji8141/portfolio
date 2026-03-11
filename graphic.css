@@ -151,6 +151,12 @@ body{
     font-size: 3vh;
 }
 
+.btn:hover{
+    background-color: blue;
+    border-color:black;
+    color: black;
+}
+
 @media screen and (min-width:768px) {
     body{
         background-color: rgb(255, 255, 255);

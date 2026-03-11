@@ -1,169 +1,202 @@
-body{
-    background-color: rgb(255, 0, 0);
-
-    display: flex;
-    width: 100vw;
-    flex-direction: column;
-    margin: 0;
-    overflow-x: hidden;
-    
+@font-face {
+  font-family: "Gadugi";
+  src:
+    url("fonts/Gadugi-Bold.woff2") format("woff2"),
+    url("fonts/Gadugi-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
-.headband{
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    
-    position: sticky;
-
-    align-items: center;
-    justify-content: center;
-    z-index: 9999;
-    
-    top: 0;
-    height: 5vh;
-    width: 100vw;
+@font-face {
+  font-family: "Gadugi";
+  src:
+    url("fonts/Gadugi.woff2") format("woff2"),
+    url("fonts/Gadugi.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-.back_menu{
-    position: relative;
-    color: white;
-    font-family: gadugi;
-    text-decoration: none;
-    font-size: 2vh;
-    padding-right: 1vh;
-    padding-left: 1vh;
+body {
+  font-family: "Gadugi";
+  font-weight: bold;
+
+  background-color: rgb(255, 0, 0);
+
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  margin: 0;
+  overflow-x: hidden;
 }
 
-.back_menu2{
-    position: relative;
-    color: white;
-    font-family: gadugi;
-    text-decoration: none;
-    font-size: 2vh;
-    padding-right: 1vh;
+.headband {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+
+  position: sticky;
+
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+
+  top: 0;
+  height: 5vh;
+  width: 100vw;
 }
 
-.back_menu3{
-    position: relative;
-    color: white;
-    font-family: gadugi;
-    text-decoration: none;
-    font-size: 2vh;
-    padding-right: 1vh;
+.back_menu {
+  position: relative;
+  color: white;
+  font-family: gadugi;
+  text-decoration: none;
+  font-size: 2vh;
+  padding-right: 1vh;
+  padding-left: 1vh;
 }
 
-.code{
-    display: flex;
-    flex-direction: row;
-    
-    justify-content: center;
-
-    min-height: 810px;
-    width: 100vw;
+.back_menu2 {
+  position: relative;
+  color: white;
+  font-family: gadugi;
+  text-decoration: none;
+  font-size: 2vh;
+  padding-right: 1vh;
 }
 
-.bleu{
-    position: relative;
-    background-color: blue;
-    width: 3vw;
+.back_menu3 {
+  position: relative;
+  color: white;
+  font-family: gadugi;
+  text-decoration: none;
+  font-size: 2vh;
+  padding-right: 1vh;
 }
 
-.middle{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    padding: 2vh;
+.code {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+
+  min-height: 810px;
+  width: 100vw;
 }
 
-.title{
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 10vh;
-    font-family: gadugi;
+.bleu {
+  position: relative;
+  background-color: blue;
+  width: 3vw;
 }
 
-.info{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 3vh;
-    font-family: gadugi;
+.middle {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 2vh;
 }
 
-
-.img{
-    display: flex;
-    align-self: center;
-    width: 50%;
-    
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 10vh;
+  font-family: gadugi;
 }
 
-.a{
-    display: flex;
-    justify-content: end;
-    margin-bottom: 2vh;
-    margin-right: 5vh;
-    text-decoration: none;
+.info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3vh;
+  font-family: gadugi;
 }
 
-.btn{
-    background-color: black;
-    color: white;
-    border: solid;
-    width: 10vw;
-    border-width: 0.5vh;
-    border-color: white;
-    border-radius: 999px;
-    font-family: gadugi;
-    font-size: 3vh;
+.divrow {
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  margin-bottom: 2vh;
 }
 
-.btn:hover{
-    background-color: blue;
-    border-color:black;
-    color: black;
+.img {
+  display: flex;
+  align-self: center;
+  width: 50%;
 }
 
-.bleu2{
-    position: relative;
-    background-color: blue;
-    width: 3vw;
+.a {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 2vh;
+  margin-right: 5vh;
+  text-decoration: none;
 }
 
-.end_blue{
-    background-color: blue;
-    display: flex;
-    justify-content: end;
-    align-items:end;
-
-    height: 10vh;
+.btn {
+  background-color: black;
+  color: white;
+  border: solid;
+  width: 10vw;
+  border-width: 0.5vh;
+  border-color: white;
+  border-radius: 999px;
+  font-family: gadugi;
+  font-size: 3vh;
 }
 
-.a{
-    display: flex;
-    justify-content: end;
-    margin-bottom: 2vh;
-    margin-right: 5vh;
-    text-decoration: none;
+.btn:hover {
+  background-color: blue;
+  border-color: black;
+  color: black;
 }
 
-.btn{
-    background-color: black;
-    color: white;
-    border: solid;
-    width: 10vw;
-    border-width: 0.5vh;
-    border-color: white;
-    border-radius: 999px;
-    font-family: gadugi;
-    font-size: 3vh;
+.bleu2 {
+  position: relative;
+  background-color: blue;
+  width: 3vw;
 }
 
-@media screen and (min-width:768px) {
-    body{
-        background-color: rgb(255, 255, 255);
-    }
+.end_blue {
+  background-color: blue;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+
+  height: 10vh;
+}
+
+.a {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 2vh;
+  margin-right: 5vh;
+  text-decoration: none;
+}
+
+.btn_end {
+  background-color: black;
+  color: white;
+  border: solid;
+  width: 10vw;
+  border-width: 0.5vh;
+  border-color: white;
+  border-radius: 999px;
+  font-family: gadugi;
+  font-size: 3vh;
+}
+
+.btn_end:hover {
+  background-color: blue;
+  border-color: black;
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
 }
