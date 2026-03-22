@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "Gadugi";
+  src:
+    url("fonts/Gadugi-Bold.woff2") format("woff2"),
+    url("fonts/Gadugi-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gadugi";
+  src:
+    url("fonts/Gadugi.woff2") format("woff2"),
+    url("fonts/Gadugi.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body{
     background-color: rgb(255, 0, 0);
 
@@ -87,7 +107,6 @@ body{
 }
 
 .titre{
-    font-size: 20vh;
     color: #0600ff;
     margin: 0;
     line-height: 0.69;
@@ -96,14 +115,18 @@ body{
 
 .titre__1{
     display: flex;
-    padding-right: 16vh;
+    font-size: 25.5vh;
+    padding-right: 23.5vh;
     font-family: gadugi;
+    font-weight: bold;
 }
 
 .titre__2{
     display: flex;
-    padding-left: 16.3vh;
+    font-size: 26.5vh;
+    padding-left: 22vh;
     font-family: gadugi;
+    font-weight: bold;
 }
 
 .menu{
@@ -123,13 +146,14 @@ body{
     color: black;
     text-decoration: none;
     margin-right: 5vh;
-    font-size: 10vh;
+    font-size: 15vh;
     margin-bottom: 5vh;
     font-family: gadugi;
+    font-weight: bold;
 }
 
 .menu_list:hover{
-    -webkit-text-stroke-width: 0.3vh;
+    -webkit-text-stroke-width: 0.5vh;
     -webkit-text-fill-color: transparent;
 }
 
@@ -171,6 +195,7 @@ body{
     margin-bottom: 0;
     font-size: 10vh;
     font-family: gadugi;
+    font-weight: bold;
 }
 
 .info{
@@ -192,6 +217,20 @@ body{
     display: flex;
     justify-content: center;
     gap: 3vw;
+}
+
+.divrow_code{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin-bottom: 2vh;
+}
+
+.divinfo_code{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .img2{
@@ -243,6 +282,7 @@ body{
 .contact_text{
     font-size: 15vh;
     font-family: gadugi;
+    font-weight: bold;
 }
 
 .contact_text2{
@@ -251,6 +291,7 @@ body{
     margin-top: 11vh;
     font-size: 5vh;
     font-family: gadugi;
+    font-weight: bold;
 }
 
 .contact_row{
@@ -287,6 +328,18 @@ body{
     text-decoration: none;
 }
 
+.contact_btn{
+    background-color: black;
+    color: white;
+    border: solid;
+    width: 10vw;
+    border-width: 0.5vh;
+    border-color: white;
+    border-radius: 999px;
+    font-family: gadugi;
+    font-size: 3vh;
+}
+
 .btn{
     background-color: black;
     color: white;
@@ -300,6 +353,12 @@ body{
 }
 
 .btn:hover{
+    background-color: rgb(255, 255, 255);
+    border-color:black;
+    color: black;
+}
+
+.contact_btn:hover{
     background-color: blue;
     border-color:black;
     color: black;

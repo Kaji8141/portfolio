@@ -1,3 +1,5 @@
+console.log("dom loaded");
+
 let btn 
 let return2 = document.querySelector(".back_menu");
 let headband = document.querySelector(".headband");
