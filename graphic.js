@@ -17,11 +17,11 @@ document.addEventListener('DOMContentLoaded', () => {
     },
 });
   tl.to(bleu,{
-    height: "+=277.5vh",
+    height: "+=285vh",
     duration: 3,
   })
   tl.to(bleu2,{
-    height: "+=277.5vh",
+    height: "+=285vh",
     duration: 3,
   })
 
