@@ -16,13 +16,26 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log("la timeline est terminée");
     },
 });
-  tl.to(bleu,{
-    height: "+=200vh",
+  tl.to(bleu2,{
+    height: "+=148vh",
     duration: 3,
   })
-  tl.to(bleu2,{
-    height: "+=200vh",
+
+  tl.to(bleu,{
+    height: "+=148vh",
     duration: 3,
   })
 
 })
+
+gsap.utils.toArray(".imgmove").forEach(randomFloat);
+
+function randomFloat(element) {
+  gsap.to(element, {
+    x: 'random(-20, 20, 5)',
+    y: 'random(-20, 10, 3)',
+    ease: "sine.inOut",
+    duration: gsap.utils.random([2, 4]),
+    onComplete: () => randomFloat(element)
+  });
+}
