@@ -113,7 +113,6 @@ body{
     color: #0600ff;
     margin: 0;
     line-height: 0.69;
-    
 }
 
 .titre__1{
@@ -462,4 +461,81 @@ body{
     body{
         background-color: rgb(255, 255, 255);
     }
+
+    .titre__1{
+    display: flex;
+    font-size: 12.5vh;
+    padding-right: 20vh;
+    font-family: gadugi;
+    font-weight: bold;
+    }
+
+    .titre__2{
+        display: flex;
+        font-size: 10.5vh;
+        padding-left: 19vh;
+        font-family: gadugi;
+        font-weight: bold;
+    }
+
+    .menu_list{
+        color: black;
+        text-decoration: none;
+        margin-right: 30vw;
+        font-size: 10vh;
+        margin-bottom: 5vh;
+        font-family: gadugi;
+        font-weight: bold;
+    }
+
+    .img{
+        display: flex;
+        align-self: center;
+        object-fit: cover;
+        width: 70dvw;
+        height: 30vh;
+    }
+
+    .img_code{
+        display: flex;
+        object-fit: cover;
+        width: 40dvw;
+        height: 25vh;
+    }
+
+    .img_code2{
+        display: flex;
+        object-fit: cover;
+        width: 80dvw;
+        height: 10vh;
+    }
+
+    .img2{
+        display: flex;
+        object-fit: cover;
+        width: 40dvw;
+        height: 25vh;
+    }
+
+    .img3{
+        padding: 2vh;
+        align-self: center;
+        object-fit: cover;
+        width: 35dvw;
+        height: 40vh;
+    }
+
+    .gif{
+        padding-left: 8vh;
+        width: 40%;
+    }
+
+    .allbtn{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: end;
+        padding-right: 10dvw;
+    }
+
 }
